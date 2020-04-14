@@ -1,0 +1,235 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #192536;
+}
+
+#clear {
+    clear: both;
+}
+
+#top-bar1 {
+    width: 100%;
+    height: 100px;
+    background-color: #21324A;
+}
+
+#top-bar1-logo {
+    padding-left: 40px;
+}
+
+#top-bar1-logo img {
+    width: 125px;
+    height: 35px;
+}
+
+.top-bar1-child {
+    float: left;
+    margin: 10px;
+}
+
+#top-bar1-center {
+    padding-left: 260px;
+    padding-right: 400px;
+}
+
+#top-bar1-center input {
+    width: 450px;
+    height: 35px;
+    background: white url(./img/search-btn.png) no-repeat right;
+}
+
+#top-bar1-center img {
+    position: relative;
+    transform: inherit;
+}
+
+#top-bar1-center h4 {
+    margin: 16px 0 0 0;
+    padding: 0 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#top-bar1-center h4:first-of-type {
+    border-right: 2px solid black;
+    border-color: white;
+}
+
+#top-bar1-corner {
+    text-align: center;
+    padding-left: 80%;
+    color: white;
+}
+
+#top-bar1-corner h4 {
+    margin: 16px 0 0 0;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+#top-bar1-corner h4:hover {
+    color: #217E4A;
+}
+
+#top-bar1-corner h4:first-of-type {
+    border-right: 2px solid white;
+}
+
+#top-bar1-below-content {
+    padding-left: 40px;
+}
+
+#top-bar1-below-content .top-bar1-below-content-child {
+    float: left;
+    margin: 10px 20px 10px 10px;
+    text-align: center;
+    color: gray;
+}
+
+#top-bar1-below-content .top-bar1-below-content-child:hover {
+    border-bottom: 2px solid #30AF85;
+    color: #219965;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+#top-bar1-below-content .top-bar1-below-content-child>ul {
+    list-style-type: none;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 11px;
+    display: none;
+    padding: 0;
+}
+
+#top-bar1-below-content .top-bar1-below-content-child:hover ul {
+    z-index: 11;
+    display: block;
+}
+
+#top-bar1-below-content .top-bar1-below-content-child:hover ul li p {
+    margin: 0;
+}
+
+#top-bar1-below-content ul>li {
+    color: black;
+    float: left;
+    margin: 10px;
+    padding: 10px 30px 10px 10px;
+    text-align: left;
+}
+
+#top-bar1-below-content ul>li:hover {
+    color: #6DB685;
+}
+
+#top-bar1-below-content ul li ul {
+    padding: 0;
+}
+
+#top-bar1-below-content ul li .float-1 {
+    float: left;
+}
+
+#top-bar1-below-content ul li ul li {
+    clear: both;
+    list-style-type: none;
+    text-align: left;
+    border-bottom: 1px solid gray;
+    line-height: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Slide show  */
+
+#slide-show {
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 830px;
+    height: 310px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide-img {
+    position: absolute;
+    display: none;
+}
+
+.slide-img:first-child {
+    display: block;
+}
+
+#arrow-left {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: auto;
+    font-size: 50px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#arrow-right {
+    color: white;
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    font-size: 50px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#slide-node ul {
+    position: absolute;
+    z-index: 10;
+    width: 190px;
+    display: flex;
+    bottom: 0%;
+    left: 40%;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#slide-node ul li {
+    width: 20px;
+    height: 20px;
+    list-style: none;
+    border-radius: 50%;
+    background: white;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#slide-node ul li:hover {
+    opacity: 1;
+}
+
+div>h3 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+
+/* Playlist today */
+
+#playlist-today {
+    display: inline-flex;
+    overflow: hidden;
+    width: 1000px;
+}
+
+
+/* #playlist-today::after {
+    clear: both;
+} */
+
+#playlist-today img {
+    float: left;
+    padding: 10px;
+}

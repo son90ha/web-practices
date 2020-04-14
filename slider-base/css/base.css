@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+#text-input {
+    text-align: center;
+}
+
+#text-input>button {
+    background-color: black;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#nav-button-area {
+    text-align: center;
+    margin: 2px 0;
+}
+
+#nav-button-area button {
+    background-color: skyblue;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+#node-area {
+    margin: 10px 0;
+    text-align: center;
+}
+
+#node-area .button-active {
+    background-color: gray
+}
+
+#node-area button {
+    border: none;
+    border-radius: 50%;
+    background-color: #dddddd;
+    cursor: pointer;
+    margin: 0 5px;
+    width: 9px;
+    height: 16px;
+}
+
+
+/* slider */
+
+#base-mw {
+    overflow: hidden;
+}
+
+#base-iw {
+    margin: 0px;
+}
+
+#base {
+    width: calc(233.31%);
+    white-space: nowrap;
+    font-size: 0;
+    /* transform: translate3d(-42.99%, 0, 0); */
+    transform: translateX(-42.99%);
+    transition-duration: 0.5s;
+}
+
+.tns-item {
+    width: calc(14.33%);
+    display: inline-block;
+    white-space: normal;
+    font-size: 160px;
+    text-align: center;
+    height: 200px;
+}
+
+.img-0 {
+    background-color: red;
+}
+
+.img-1 {
+    background-color: orange;
+}
+
+.img-2 {
+    background-color: yellow;
+}
+
+.img-3 {
+    background-color: green;
+}
+
+.img-4 {
+    background-color: blue;
+}
+
+.img-5 {
+    background-color: indigo;
+}
+
+.img-6 {
+    background-color: violet;
+}
