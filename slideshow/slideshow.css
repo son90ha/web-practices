@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: center;
+}
+
+div img {
+    position: relative;
+    left: 10.5%;
+    display: none;
+}
+
+div img:first-child {
+    display: block;
+}
+
+div .material-icons {
+    position: absolute;
+    cursor: pointer;
+    font-size: 50px;
+    top: 27%;
+    color: #e5ffff;
+}
+
+div .material-icons:hover {
+    background-color: gray;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
+#prev {
+    left: 11%;
+}
+
+#next {
+    right: 12%;
+}
+
+div ul {
+    text-align: center;
+}
+
+div ul li {
+    border: 1px solid black;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+div ul li:hover,
+div ul li:first-child {
+    background-color: gray;
+}
