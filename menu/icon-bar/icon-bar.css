@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#icon-bar {
+    width: 50%;
+    background-color: gray;
+    height: 50px;
+    text-align: center;
+    font-size: 0;
+}
+
+.icon {
+    font-family: 'Material Icons';
+    font-size: 30px;
+    display: block;
+    float: left;
+    width: 20%;
+    padding: 7px 0;
+    color: white;
+}
+
+#icon-bar .active {
+    background-color: green;
+    animation-name: none;
+}
+
+.icon:hover {
+    animation-name: fadeBlack;
+    animation-duration: 1s;
+    background-color: black;
+}
+
+@keyframes fadeBlack {
+    from {
+        background-color: gray;
+    }
+    to {
+        background-color: black;
+    }
+}
